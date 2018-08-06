@@ -18,37 +18,37 @@
 
     <com.android.settings.applications.LayoutPreference
         android:key="battery_options_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.BatteryOptions"
+        android:fragment="com.tesla.coil.fragments.BatteryOptions"
         android:layout="@layout/battery_options" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="carrier_label_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.CarrierLabel"
+        android:fragment="com.tesla.coil.fragments.CarrierLabel"
         android:layout="@layout/carrier_label" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="clock_options_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.ClockOptions"
+        android:fragment="com.tesla.coil.fragments.ClockOptions"
         android:layout="@layout/clock_options" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="notifications_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.Notifications"
+        android:fragment="com.tesla.coil.fragments.Notifications"
         android:layout="@layout/notifications" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="quick_settings_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.QuickSettings"
+        android:fragment="com.tesla.coil.fragments.QuickSettings"
         android:layout="@layout/quicksettings" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="ticker_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.Ticker"
+        android:fragment="com.tesla.coil.fragments.Ticker"
         android:layout="@layout/ticker" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="traffic_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.TrafficIndicators"
+        android:fragment="com.tesla.coil.fragments.TrafficIndicators"
         android:layout="@layout/traffic" />
 
 </PreferenceScreen>

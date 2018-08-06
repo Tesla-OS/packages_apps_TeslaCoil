@@ -27,7 +27,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.android.internal.util.du.Utils;
+import com.android.internal.util.gzosp.GzospUtils;
 
 public class Lockscreen extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
@@ -38,7 +38,7 @@ public class Lockscreen extends SettingsPreferenceFragment implements Preference
 
         Preference FingerprintPrefs = findPreference("fingerprint_prefs_category");
 
-        if (!Utils.hasFingerprintSupport(getContext())) {
+        if (!GzospUtils.hasFingerprintSupport(getContext())) {
             getPreferenceScreen().removePreference(FingerprintPrefs);
         }
     }

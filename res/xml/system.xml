@@ -26,12 +26,12 @@
 
     <com.android.settings.applications.LayoutPreference
         android:key="miscellaneous_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.Miscellaneous"
+        android:fragment="com.tesla.coil.fragments.Miscellaneous"
         android:layout="@layout/miscellaneous" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="powermenu_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.PowerMenu"
+        android:fragment="com.tesla.coil.fragments.PowerMenu"
         android:layout="@layout/powermenu" />
 
 </PreferenceScreen>
